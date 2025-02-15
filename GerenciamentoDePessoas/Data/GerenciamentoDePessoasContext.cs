@@ -8,6 +8,6 @@ namespace GerenciamentoDePessoas.Data
         public GerenciamentoDePessoasContext(DbContextOptions<GerenciamentoDePessoasContext> options) : base(options)
         {
         }
-        public DbSet<Pessoas> Pessoas { get; set; }
+        public DbSet<Pessoa> Pessoas { get; set; }
     }
 }
